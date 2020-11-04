@@ -1,0 +1,9 @@
+# Assignment details - a .gitignore only pushes the filetypes specified in the .gitignore
+*.docx
+*.pdf
+*.csv
+*.xlsx
+*.zip
+*.Rhistory
+*.tmp
+*.png

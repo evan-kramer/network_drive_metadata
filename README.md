@@ -4,7 +4,7 @@
 ## Problem
 - We're running out of space on the network drive.
 - It costs money to provision/maintain these servers.
-- We're not sure what is taking up much of that 
+- We're not sure what is taking up much of that space.
 
 ## Potential Solutions
 - We can remove old files.

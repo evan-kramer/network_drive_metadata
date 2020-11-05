@@ -43,7 +43,7 @@ It took d2 minutes to get metadata for all files.'
 # Send email with error or run script
 send_mail(
   mail_from = readRegistry("Environment", hive = "HCU")$api_uid,
-  mail_rcpt = 'anthonys.graham@dc.gov',
+  mail_rcpt = readRegistry("Environment", hive = "HCU")$api_uid,
   message = str_replace(m, "d1", as.character(d1)) %>% 
     str_replace("d2", as.character(d2)),
   smtp_server = "smtp://smtp.office365.com:587",
